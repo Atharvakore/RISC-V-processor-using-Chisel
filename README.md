@@ -98,25 +98,25 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 
 ### Problem 2.1: Modular RISC-V Implementation
 
-**Points**: 0
+
 
 **Description**: Familiarize yourself with the provided RISC-V processor implementation. This task does not carry any points but is crucial for understanding the following problems.
 
 ### Problem 2.2: Function Calls
 
-**Points**: 5
+
 
 **Description**: Implement support for the `jal` and `jalr` instructions, which are essential for function calls in RISC-V. Modify the decoder, control unit, and execution unit as necessary.
 
 ### Problem 2.3: Load Instructions
 
-**Points**: 6
+
 
 **Description**: Add support for load instructions (`lw`, `lb`, `lbu`, `lh`, `lhu`). Update the processor to correctly decode and execute these instructions.
 
 ### Problem 2.4: Multiplication and Division Instructions
 
-**Points**: 11
+
 
 **Description**:
 - **Multiplication**: Implement the `mul`, `mulh`, `mulhsu`, `mulhu` instructions.
@@ -134,20 +134,7 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 2. **Create Submission**: Generate a submission file using `sbt createSubmission`. The file will be saved in the `submissions` folder.
 3. **Upload**: Submit the generated file to the CMS system by the deadline.
 
-### Deadlines
-- **Team Formation**: June 12, 2024, 23:59.
-- **Project Submission**: June 28, 2024, 23:59.
 
-Late submissions will receive 0 points.
-
-## Collaboration Policy
-
-- **Permitted**: Discussing high-level concepts with other groups, seeking help from tutors.
-- **Not Permitted**: Sharing or copying code, using code from previous years, debugging with other groups by comparing solutions.
-
-### Contribution Statement
-
-Each team member must describe their contribution in `CONTRIBUTIONS.md`. If any AI tools were used, they should also be mentioned here. Individual team members may be asked to explain their contributions.
 
 ## Additional Resources
 
