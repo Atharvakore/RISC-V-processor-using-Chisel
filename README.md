@@ -72,7 +72,6 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 
 ### Problem 1.1: Division Circuit
 
-**Points**: 5
 
 **Description**: Implement a sequential division circuit based on the grade school division algorithm. The circuit should have two n-bit inputs (dividend and divisor) and two n-bit outputs (quotient and remainder). The computation begins when the `start` signal is set to `true` and completes in n clock cycles, at which point the `done` signal is set to `true`.
 
@@ -82,7 +81,7 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 
 ### Problem 1.2: Bonus: Faster Division
 
-**Points**: 2 (Bonus)
+
 
 **Description**: Optimize the division circuit to terminate early under certain conditions. Identify and implement these conditions to reduce the number of cycles required for the division.
 
@@ -90,7 +89,6 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 
 ### Problem 1.3: Vector Unit
 
-**Points**: 5
 
 **Description**: Implement a vector unit generator (`ParallelUnit`) that can perform operations on multiple data elements in parallel. The generator should accept parameters for array size, vector size, unit width, and a computational unit for scalar operations.
 
@@ -122,17 +120,11 @@ The tests for each part are located in the corresponding `src/test/scala` direct
 - **Multiplication**: Implement the `mul`, `mulh`, `mulhsu`, `mulhu` instructions.
 - **Division**: Implement the `div`, `divu`, `rem`, `remu` instructions.
 
-### Problem 2.5: Bonus: Division
 
-**Points**: 4 (Bonus)
 
 **Description**: Integrate the division circuit from Problem 1.1 into the RISC-V processor to handle division instructions. Implement appropriate stall signals to manage the non-combinatorial nature of the circuit.
 
-## Submission Guidelines
 
-1. **Run Tests**: Ensure that your project passes all tests by running `sbt check`.
-2. **Create Submission**: Generate a submission file using `sbt createSubmission`. The file will be saved in the `submissions` folder.
-3. **Upload**: Submit the generated file to the CMS system by the deadline.
 
 
 
