@@ -1,6 +1,4 @@
-Based on the provided document, I'll create an exhaustive README file for your System Architecture project. This README will cover all relevant sections, including setup instructions, project structure, problem descriptions, and submission guidelines.
 
----
 
 # System Architecture Project: Hardware Design with Chisel
 
@@ -156,6 +154,4 @@ Each team member must describe their contribution in `CONTRIBUTIONS.md`. If any 
 - **Chisel Documentation**: [Chisel](https://www.chisel-lang.org/)
 - **RISC-V Specification**: [RISC-V Specifications](https://riscv.org/specifications/)
 
----
 
-This README file is designed to be comprehensive and should cover all necessary information for successfully completing and submitting the project.
